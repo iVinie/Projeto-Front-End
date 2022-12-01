@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg, #313131, #383838);
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: transparent;
+    flex-wrap: wrap;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 89%;
+    padding: 10px;
+    background-color: transparent;
+    min-height: 85px;
+    flex-wrap: wrap;
+    gap:10px
+}
+#header a{
+    text-decoration: 2px underline transparent;
+    color: #c5c5c5;
+}
+#header a:hover{
+    text-decoration:2px underline #0e9549;
+    transition: 0.4s;
+}
+#header a img{
+    height: 100px;
+    
+}
+.btn-header{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.btn-header button{
+    display: flex;
+    gap: 7px;
+    text-align: left;
+    padding: 10px;
+    background-color: transparent;
+    color: #c5c5c5;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.btn-header button:hover{
+    cursor: pointer;
+    border: 2px solid #ff0044;
+    transition: 0.4s;
+}
+.icon{
+    fill: currentColor;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    width: 30px;
+}
+.icon-color{
+    color: #ff0044;
+    background: transparent;
+    margin-right: 0.5rem;
+}
+#carrinho{
+    font-size: 15px;
+    font-weight: bold;
+}
+#btn3{
+    background-color: #0e9549;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+#btn3:hover{
+    background-color: #00751f;
+    border-color: #009e2a;
+    transition: 0.7s;
+}
+.icon-2{
+    fill: currentColor;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    width: 25px;
+}
+#line-header{
+    border: 1px solid #0e9549;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.msg-produto{
+    width: 89%;
+    font-size: 12px;
+    color: #c5c5c5;
+    max-height: 20px;
+    margin-bottom: 5px;
+}
+.main-content{
+    display: flex;
+    gap: 20px;
+    width: 89%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-item{
+    width: 450px;
+}
+.main-item img{
+    width: 550px;
+}
+.title{
+    font-size: 30px;
+    color: #c5c5c5;
+}
+.main-line{
+    border: 1px solid #0e9549;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn-buy{
+    background-color: #0e9549;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    gap: 20px;
+    padding: 10px;
+}
+.btn-buy .buy{
+    font-size: 30px;
+    font-weight: bold;
+    color: #c5c5c5;
+}
+.btn-buy:hover{
+    background-color: #00751f;
+    border: 2px solid #009e2a;
+    transition: .4s;
+    cursor: pointer;
+}
+.icon{
+    fill: currentColor;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    min-width: 35px;
+}
+.icon-color{
+    color: #c5c5c5;
+    background: transparent;
+    margin-right: 0.5rem;
+}
+.price{
+    margin-top: 10px;
+    font-size: 15px;
+    color:#c5c5c5
+}
+.risco{
+    text-decoration: line-through;
+}
+.item1{
+    color:#0e9549
+}
+.item2{
+    color:#0e9549;
+    font-size: 22px;
+    font-weight: bold;
+}
+.item3{
+    font-size: 18px;
+    color:#ff0044;
+    font-weight: bold;
+}
+
+
+
+#footer{
+    min-height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 89%;
+    gap: 15px;
+}
+#footer .nav a .footer-btn{
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    padding: 15px;
+    cursor: pointer;
+    color: #c5c5c5;
+    font-size: 20px;
+}
+#footer .nav a .footer-btn:hover{
+    border: 2px solid #ff0044;
+    transition: .4s;
+}
+
+#footer .social{
+    display: flex;
+}
+#footer .social img{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.line-footer{
+    border: 1px solid #0e9549;
+    margin-top: 15px;
+    width: 100%;
+}
+#copy{
+    color: #c5c5c5;
+}

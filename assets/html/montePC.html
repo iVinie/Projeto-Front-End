@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monteu seu Computador</title>
+    <link rel="shortcut icon" href="../image/GT-mini-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/montePC.css">
+</head>
+
+<body>
+
+    <header class="flex-item" id="header">
+        <a href="../../index.html"><img src="../image/grau_TECH.png" alt="logo"></a>
+
+        <div class="btn-header">
+            <button id="btn1">
+                <svg class="icon icon-color" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z">
+                    </path>
+                </svg>
+                <div class="text">
+                    <p>MINHA CONTA</p>
+                    <p>
+                        <a href="./login.html">ENTRAR</a>
+                        /
+                        <a href="./cadastrar.html"> CADASTRAR</a>
+                    </p>
+                </div>
+            </button>
+
+            <a href="./atendimento.html">
+                <button id="btn2">
+                    <svg class="icon icon-color" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M11.5 2C6.81 2 3 5.81 3 10.5S6.81 19 11.5 19h.5v3c4.86-2.34 8-7 8-11.5C20 5.81 16.19 2 11.5 2zm1 14.5h-2v-2h2v2zm0-3.5h-2c0-3.25 3-3 3-5 0-1.1-.9-2-2-2s-2 .9-2 2h-2c0-2.21 1.79-4 4-4s4 1.79 4 4c0 2.5-3 2.75-3 5z">
+                        </path>
+                    </svg>
+                    <div class="text">
+                        <p>ATENDIMENTO</p>
+                        <p>AO CLIENTE</p>
+                    </div>
+                </button>
+            </a>
+
+            <button id="btn3">
+                <svg class="icon-2 icon-color-2" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                        d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z">
+                    </path>
+                </svg>
+                <div class="text">
+                    <p id="carrinho">CARRINHO</p>
+                    <p id="qtd_produto">0 produto</p>
+                </div>
+                <svg class="icon-2 icon-color-2" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                </svg>
+            </button>
+        </div>
+        <div id="line-header"></div>
+    </header>
+
+    <main class="meio">
+
+        <div class="processador" id="pcD">
+            <div class="quadro">
+                <img src="../image/Processador/ProcessadorIntel7.png" alt="produto" >
+                <p class="descricao">PROCESSADOR INTEL CORE I7-12700KF, 12-CORE, 20-THREADS, 3.6GHZ (5.0GHZ TURBO), CACHE 25MB, LGA1700, BX8071512700KF </p>
+                <div class="price">
+                    <p class="item3">de: <span class="risco">R$ 5.227,16</span> por:</p>
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$2.999,97</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 3.409,06</p>
+                    <p>em até 12x de <span class="item3">R$ 284,09</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="pcdCeleron()">ADICIONAR</button>
+            </div>
+
+            <div class="quadro">
+                <img src="../image/Processador/ProcessadorInteli5.png" alt="produto">
+                <p class="descricao">PROCESSADOR INTEL CORE I5-12400, 6-CORE, 12-THREADS, 2.5GHZ (4.4GHZ TURBO), CACHE 18MB, LGA1700, BX8071512400</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$1.599,00</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 1.817,05</p>
+                    <p>em até 12x de <span class="item3">R$ 151,42</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="pcDnumberTwo()">ADICIONAR</button>
+            </div>
+            <div class="quadro">
+                <img src="../image/Processador/ProcessadorRyzen5.png" alt="produto">
+                <p class="descricao">PROCESSADOR AMD RYZEN 5 5600G, 6-CORE, 12-THREADS, 3.9GHZ (4.4GHZ TURBO), CACHE 19MB, AM4, 100-100000252BOX</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$1.250,00</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 1.420,45</p>
+                    <p>em até 12x de <span class="item3">R$ 118,37</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="pcdAmd()">ADICIONAR</button>
+            </div>
+        </div>
+
+
+        <!-- PLACA MAE INTEL -->
+
+        <div class="placamae" id="pM">
+
+            <div class="quadro">
+                <img src="../image/Placa-mãe/PlacamaeIntel1.png" alt="produto" >
+                <p class="descricao">PLACA MAE MSI PRO H610M-G, DDR4, SOCKET LGA 1700, M-ATX, CHIPSET INTEL H610, PRO-H610M-G</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$899,90</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 1.022,61</p>
+                    <p>em até 12x de <span class="item3"> R$ 85,22</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="placaMaeone()">ADICIONAR</button>
+            </div>
+
+            <div class="quadro">
+                <img src="../image/Placa-mãe/PlacamaeIntel2.png" alt="produto">
+                <p class="descricao">PLACA MAE MSI PRO B660M-A WIFI, DDR4, SOCKET LGA 1700, M-ATX, CHIPSET INTEL B660, PRO-B660M-A-WIFI</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$1.799,90</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 2.045,34</p>
+                    <p>em até 12x de <span class="item3">R$ 170,45</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="placaMaetwo()">ADICIONAR</button>
+            </div>
+            <div class="quadro">
+                <img src="../image/Placa-mãe/PlacamaeIntel3.png" alt="produto">
+                <p class="descricao">PLACA MAE BIOSTAR Z690GTA, DDR4, SOCKET LGA1700, ATX, CHIPSET INTEL Z690, Z690GTA</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$2.699,90</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 3.068,07</p>
+                    <p>em até 12x de <span class="item3">R$ 255,67</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="placaMaethree()">ADICIONAR</button>
+            </div>
+
+        </div>
+
+
+
+        <!-- //PLACA MAE AMD  -->
+        <div class="placamae" id="pMaMd">
+
+            <div class="quadro">
+                <img src="../image/Placa-mãe/Placamaeryzen2.png" alt="produto">
+                <p class="descricao">PLACA MAE MSI A520M-A PRO, DDR4, SOCKET AM4, M-ATX, CHIPSET AMD A520, A520M-A PRO</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$532,90</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 605,57</p>
+                    <p>em até 12x de <span class="item3">R$ 50,46</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="placaMaeAMD1()">ADICIONAR</button>
+            </div>
+
+            <div class="quadro">
+                <img src="../image/Placa-mãe/Placamaeryzen3.png" alt="produto">
+                <p class="descricao">PLACA MAE MSI MPG B550 GAMING PLUS DDR4 SOCKET AM4 CHIPSET AMD B550</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$1.399,90</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 1.590,80</p>
+                    <p>em até 12x de <span class="item3">R$ 132,57</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="placaMaeAMD2()">ADICIONAR</button>
+            </div>
+            <div class="quadro">
+                <img src="../image/Placa-mãe/PlacamaeRyzen1.png" alt="produto">
+                <p class="descricao">PLACA MAE ASROCK X570 TAICHI RAZER EDITION, DDR4, SOCKET AM4, ATX, CHIPSET AMD X570, X570 TAICHI RAZER EDITION</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$2.999,90</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 3.408,98</p>
+                    <p>em até 12x de <span class="item3">R$ 284,08</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="placaMaeAMD3()">ADICIONAR</button>
+            </div>
+
+        </div>
+
+        <!-- MEMORIA RAM -->
+
+        <div class="memoriaram" id="memoria">
+
+            <div class="quadro">
+                <img src="../image/Ram/ram1.png" alt="produto" >
+                <p class="descricao">MEMORIA DUEX, 4GB (1X4GB), DDR4, 2400MHZ, DXPC44GB24</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$127,50</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 144,89</p>
+                    <p>em até 12x de <span class="item3">R$ 12,07</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="memoryOne()">ADICIONAR</button>
+            </div>
+
+            <div class="quadro">
+                <img src="../image/Ram/ram2.png" alt="produto">
+                <p class="descricao">MEMORIA ADATA XPG GAMMIX D10, 8GB (1X8GB), DDR4, 3200MHZ, C16, VERMELHA, AX4U32008G16A-SR10</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$199,99</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 227,26</p>
+                    <p>em até 12x de <span class="item3">R$ 18,94</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="memoryTwo()">ADICIONAR</button>
+            </div>
+            <div class="quadro">
+                <img src="../image/Ram/ram3.png" alt="produto">
+                <p class="descricao">MEMORIA ADATA XPG SPECTRIX D41, RGB, 16GB (1X16GB), DDR4, 3200MHZ, C16, CINZA, AX4U320016G16A-ST41</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$546,48</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 621,00</p>
+                    <p>em até 12x de <span class="item3">R$ 51,75</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="memoryThree()">ADICIONAR</button>
+            </div>
+
+        </div>
+
+
+        <div class="HDSSD" id="hdSsd">
+
+            <div class="quadro">
+                <img src="../image/HD/hd1.png" alt="produto" >
+                <p class="descricao">HD SEAGATE IRONWOLF NAS, 16TB, 3.5, 7200 RPM, SATA III 6GB/S, CACHE 256MB, ST16000VN001</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$4.399,90</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 4.999,89</p>
+                    <p>em até 12x de <span class="item3">R$ 416,66</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="hDsone()">ADICIONAR</button>
+            </div>
+
+            <div class="quadro">
+                <img src="../image/HD/hd2.png" alt="produto">
+                <p class="descricao">HD WD RED PRO, 2TB, 3.5, 7200RPM, SATA III 6GB/S, CACHE 64MB, WD2002FFSX</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$899,90</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 1.022,61</p>
+                    <p>em até 12x de <span class="item3">R$ 85,22</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="hDstwo()">ADICIONAR</button>
+            </div>
+            <div class="quadro">
+                <img src="../image/HD/ssd3.png" alt="produto">
+                <p class="descricao">SSD MANCER ALASTORE V, 1TB, M.2 2280, PCIE NVME, LEITURA 2100MB/S, GRAVACAO 1900MB/S, MCR-ALTV-1TB</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$484,90</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 551,02</p>
+                    <p>em até 12x de <span class="item3">R$ 45,92</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="hDsthree()">ADICIONAR</button>
+            </div>
+
+        </div>
+
+
+        <div class="gabinete" id="gaBi">
+
+            <div class="quadro">
+                <img src="../image/Gabinete/gabinete1.png" alt="produto" >
+                <p class="descricao">GABINETE GAMER TGT TRACER, RGB, MID-TOWER, LATERAL ACRILICO, COM 3 FANS, PRETO, TGT-TRC-RGB01</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$ 198,99</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 226,13</p>
+                    <p>em até 12x de <span class="item3">R$ 18,84</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="gabiNeteOne()">ADICIONAR</button>
+            </div>
+
+            <div class="quadro">
+                <img src="../image/Gabinete/gabinete2.png" alt="produto">
+                <p class="descricao">GABINETE GAMER LIAN LI LANCOOL III, FULL-TOWER, LATERAL DE VIDRO, COM 4 FANS, PRETO, LANC-3-BK</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$1.265,90</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 1.438,52</p>
+                    <p>em até 12x de <span class="item3">R$ 119,88</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="gabiNeteTwo()">ADICIONAR</button>
+            </div>
+            <div class="quadro">
+                <img src="../image/Gabinete/gabinete3.png" alt="produto">
+                <p class="descricao">GABINETE GAMER COUGAR CONQUER, MID-TOWER, LATERAL DE VIDRO, COM 3 FANS, PRETO E LARANJA, 385LMR0.0008</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$2.199,90</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 2.499,89</p>
+                    <p>em até 12x de <span class="item3">R$ 208,32</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="gabiNeteThree()">ADICIONAR</button>
+            </div>
+
+        </div>
+
+
+        <div class="fonte" id="fonTs">
+
+            <div class="quadro">
+                <img src="../image/fonte/fonte1.png" alt="produto" >
+                <p class="descricao">FONTE CORSAIR RMX SERIES RM550X, 550W, FULL MODULAR, 80 PLUS GOLD, BLACK, CP-9020197-WW</p>
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2">R$849,90</p>
+                    <p>à vista 12% de desconto</p>
+                    <div class="line-item"></div>
+                    <p class="item3">R$ 965,80</p>
+                    <p>em até 12x de <span class="item3">R$ 80,48</span><br>
+                        sem juros no cartão</p>
+                </div>
+                <button class="btn-buy" onclick="fonTesOne()">ADICIONAR</button>
+            </div>
+
+            <div class="quadro">
+                <img src="../image/fonte/fonte2.png" alt="produto">
+                    <p class="descricao">FONTE CORSAIR RMX SERIES RM850X, 850W, FULL MODULAR, 80 PLUS GOLD, BLACK, CP-9020200-WW</p>
+                    <div class="price">
+                        <p class="item1">à vista</p>
+                        <p class="item2">R$1.085,00</p>
+                        <p>à vista 12% de desconto</p>
+                        <div class="line-item"></div>
+                        <p class="item3">R$ 1.232,95</p>
+                        <p>em até 12x de <span class="item3">R$ 102,75</span><br>
+                            sem juros no cartão</p>
+                    </div>
+                <button class="btn-buy" onclick="fonTesTwo()">ADICIONAR</button>
+            </div>
+            <div class="quadro">
+                <img src="../image/fonte/fonte3.png" alt="produto">
+                    <p class="descricao">FONTE NZXT C750 BRONZE, 750W, SEMI-MODULAR, 80 PLUS BRONZE, PRETA, PA-7B1BB-US</p>
+                    <div class="price">
+                        <p class="item1">à vista</p>
+                        <p class="item2">R$639,89</p>
+                        <p>à vista 12% de desconto</p>
+                        <div class="line-item"></div>
+                        <p class="item3">R$ 727,15</p>
+                        <p>em até 12x de <span class="item3">R$ 60,60</span><br>
+                            sem juros no cartão</p>
+                    </div>
+                <button class="btn-buy" onclick="fonTesThree()">ADICIONAR</button>
+            </div>
+
+        </div>
+
+
+        <!-- AQUI VAI SER MOSTRANDO NO FINAL A REVISAO DOS ITENS -->
+
+        <div class="aescolher" id="reviSao">
+
+            <H3>REVISÃO DOS ITENS SELECIONADOS</H3>
+            <div class="produtos-final">
+                <!-- PROCESSADORES -->
+                <img src="../image/cpu.png" alt="imagemprocessador" class="finalimg">
+                <!--VOCE VAI INSERIR AS RESPECTIVAS IMAGENS AQUI NESSE CAMPO E ELAS TROCAM SOZINHA ASSIM QUE SÃO CHAMADAS NO JAVASCPRIT -->
+                <div class="valorCeleron valorintelTwo valorproAmd"></div>
+
+            </div>
+            <div class="line-produtos-finais"></div>
+
+            <div class="produtos-final">
+
+                <!-- PLACA MAES -->
+
+                <img src="../image/motherboard.png" alt="imagemplacamae" class="finalimg">
+                <div class="valorpMone valorpMtwo valorpMthree"></div>
+            </div>
+
+            <div class="line-produtos-finais"></div>
+
+            <div class="produtos-final">
+                <!-- MEMORIAS RAM -->
+                <img src="../image/memoria-ram.png" alt="imagem" class="finalimg">
+                <div class="valormemoriaOne valormemoriaTwo valormemoriaThree"></div>
+            </div>
+
+            <div class="line-produtos-finais"></div>
+
+            <div class="produtos-final">
+                <!-- HD -->
+                <img src="../image/ssd.png" alt="imagem" class="finalimg">
+                <div class="valorhdNumberOne valorhdNumberTwo valorhdNumberThree"></div>
+            </div>
+
+            <div class="line-produtos-finais"></div>
+
+            <div class="produtos-final">
+                <!-- GABINETE -->
+                <img src="../image/torre-da-cpu.png" alt="imagem" class="finalimg">
+                <div class="valorGabiOne valorGabiTwo valorGabiThree"></div>
+            </div>
+
+            <div class="line-produtos-finais"></div>
+
+            <div class="produtos-final">
+                <!-- FONTES -->
+                <img src="../image/fonte-de-energia (1).png" alt="imagem" class="finalimg">
+                <div class="valorFontesOne valorFontesTwo valorFontesThree"></div>
+            </div>
+        </div>
+
+
+
+
+        <!-- AQUI ESTA SENDO MOSTRANDO NO CANTO DIREITO O VALOR DOS ITENS DE ACORDO A COMPRA -->
+        <div class="dois">
+            <div class="title-dois">
+                <p>PRODUTOS</p>
+            </div>
+            <div class="valorCeleron valorintelTwo valorproAmd"></div>
+            <div class="valorpMone valorpMtwo valorpMthree"></div>
+            <div class="valormemoriaOne valormemoriaTwo valormemoriaThree"></div>
+            <div class="valorhdNumberOne valorhdNumberTwo valorhdNumberThree"></div>
+            <div class="valorGabiOne valorGabiTwo valorGabiThree"></div>
+            <div class="valorFontesOne valorFontesTwo valorFontesThree"></div>
+
+
+            <div class="partefinal">
+                <!-- aqui sera apresentado o resultado dos itens escolhidos -->
+                <div class="price">
+                    <p class="item1">à vista</p>
+                    <p class="item2 PrecoAvista"></p>
+                    <p>à vista 12% de desconto</p>
+                <div class="line-item"></div>
+                    <p class="item3 resulTado PrecoTotal"></p>
+                    <p>em até 12x de <span class="item3 dividido"></span><br>
+                        sem juros no cartão</p>
+                </div><br>
+                <button class="btn-buy">COMPRAR</button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer id="footer">
+        <div class="line-footer"></div>
+        <div class="nav">
+            <a href="#line-header"><button class="footer-btn">Inicio</button></a>
+            <a href="./curriculo.html">
+                <button class="footer-btn">Trabalhe conosco</button>
+            </a>
+            <a href="./atendimento.html">
+                <button class="footer-btn">Contato</button>
+            </a>
+        </div>
+        <div class="social">
+            <img src="../image/icon-face.png" alt="">
+            <img src="../image/icon-insta.png" alt="">
+            <img src="../image/icon-tw.png" alt="">
+            <img src="../image/icon-wpp.png" alt="">
+        </div>
+        <div id="copy">
+            &copy; Copyright Assuero.Mota & Vinicius Oliveira <br>
+        </div>
+    </footer>
+    <script src="../JavaScript/montePc.js"></script>
+</body>
+
+</html>

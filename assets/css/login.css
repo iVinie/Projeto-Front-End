@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #313131, #383838);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #c5c5c5;
+    flex-wrap: wrap;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 89%;
+    padding: 10px;
+    background-color: transparent;
+    min-height: 85px;
+    flex-wrap: wrap;
+    gap:10px
+}
+#header a{
+    text-decoration: 2px underline transparent;
+    color: #c5c5c5;
+}
+#header a:hover{
+    text-decoration:2px underline #0e9549;
+    transition: 0.4s;
+}
+#header a img{
+    height: 100px;
+    
+}
+.btn-header{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.btn-header button{
+    display: flex;
+    gap: 7px;
+    text-align: left;
+    padding: 10px;
+    background-color: transparent;
+    color: #c5c5c5;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.btn-header button:hover{
+    cursor: pointer;
+    border: 2px solid #ff0044;
+    transition: 0.4s;
+}
+.icon{
+    fill: currentColor;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    width: 30px;
+}
+.icon-color{
+    color: #ff0044;
+    background: transparent;
+    margin-right: 0.5rem;
+}
+#carrinho{
+    font-size: 15px;
+    font-weight: bold;
+}
+#btn3{
+    background-color: #0e9549;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+#btn3:hover{
+    background-color: #00751f;
+    border-color: #009e2a;
+    transition: 0.7s;
+}
+.icon-2{
+    fill: currentColor;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    width: 25px;
+}
+#line-header{
+    border: 1px solid #0e9549;
+    width: 100%;
+}
+
+
+main .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 89%;
+    padding: 10px;
+}
+.img{
+    width: 89%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.img .title{
+    font-size: 25px;
+}
+.container img{
+    width: 200px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.input-field {
+    position: relative;
+}
+.input-field .underline::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: #c5c5c5;
+}
+.input-field .underline::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(45deg, #0e9549, #00751f);
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+}
+.input-field input:focus ~ .underline::after {
+    transform: scaleX(1);
+}
+.input-field input {
+    outline: none;
+    font-size: 15px;
+    color: #c5c5c5;
+    width: 250px;
+    padding: 2px 2px 2px 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+}
+.input-field input::placeholder {
+    color: #c5c5c5;
+}
+form input[type="submit"] {
+    padding: 10px;
+    width: 100%;
+    background: linear-gradient(to left, #0e9549,#00751f);
+    cursor: pointer;
+    color: #c5c5c5;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #0e9549, #00751f);
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.links span a{
+    color: #c5c5c5;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.links span a:hover{
+    color:#0e9549; 
+    transition: all 0.4s ease;
+}
+.links .social-field {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.links .social-field a i {
+    margin: 0 0.5rem;
+    width: 15px;
+}
+.links .social-field a {
+    text-decoration: none;
+    color: #c5c5c5;
+}
+.links .social-field a:hover {
+    color: #ff0044;
+    transition: all 0.4s ease;
+    letter-spacing: 0.3px;
+}
+.links .social-field.twitter {
+    background: linear-gradient(to right, #56a7f2, #468aca);
+}
+.links .social-field.Linkedin {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+#footer{
+    min-height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 89%;
+    gap: 15px;
+}
+#footer .nav a .footer-btn{
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    padding: 15px;
+    cursor: pointer;
+    color: #c5c5c5;
+    font-size: 20px;
+}
+#footer .nav a .footer-btn:hover{
+    border: 2px solid #ff0044;
+    transition: .4s;
+}
+
+#footer .social{
+    display: flex;
+}
+#footer .social img{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.line-footer{
+    border: 1px solid #0e9549;
+    width: 100%;
+    margin-top: 30px;
+}
+#copy{
+    color: #c5c5c5;
+}
+
+
+@media(max-width:1024px){
+    #header{
+        justify-content: center;
+    }
+}
+@media(max-width: 880px){
+    #btn3{
+        width: auto;
+    }
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
